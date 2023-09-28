@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth; 
+  }
+
+body{
+    min-width: 320px;
+    font-family: Montserrat;
+    background-color: rgb(132, 187, 160);
+    font-size: 30px;
+    margin: 0;
+    color: white;
+}
+
+.header_search{
+    margin: 35px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foto_and_unsplash{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.unsplash{
+    font-size: 42px;
+}
+
+#search_conteiner{
+    position: relative;
+    width: 367px;
+}
+
+#search_conteiner input{
+    box-sizing: border-box;
+  width: 100%;
+  font-size: 15px;
+  padding: 9px 15px;
+  border-radius: 25px;
+  outline: none;
+  transition: 1s;
+  border: 2px solid #06623e;
+}
+
+input:hover{
+    border: 3px solid #06623e;
+    box-shadow: 0 0 10px black;
+}
+
+#search_conteiner img {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  #search_conteiner img:hover{
+    width: 22px;
+  }
+
+#grid_of_pictures{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 11px;
+}
+  
+.gallery-picture {
+    width: 355px;
+    height: 200px;
+    margin-left: 5px;
+    margin-top: 11px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+
+
+
+.fotter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left_part_fotter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin: 35px 0;
+}
+
+.my_github_KG{
+    color: white;
+    text-decoration: none;
+}
+
+.my_github_KG:hover{
+    color: #06623e;
+    cursor: pointer;
+}
+
+.rss_logo{
+    margin: 35px 35px 35px 0;
+    fill: #fff;
+}
+
+.rss_logo:hover{
+    fill: #06623e;
+    cursor: pointer;
+}
