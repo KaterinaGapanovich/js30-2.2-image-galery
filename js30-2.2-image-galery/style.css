@@ -91,36 +91,31 @@ input:hover{
 
 
 
-.fotter{
+.fotter-part{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.left_part_fotter{
+.left_part-ft{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
-    margin: 35px 0;
+    gap: 45px;
+    margin: 25px 0;
 }
 
-.my_github_KG{
+.github{
     color: white;
     text-decoration: none;
 }
 
-.my_github_KG:hover{
+.github:hover{
     color: #06623e;
     cursor: pointer;
 }
 
-.rss_logo{
-    margin: 35px 35px 35px 0;
-    fill: #fff;
-}
-
-.rss_logo:hover{
-    fill: #06623e;
+.RSSlogo{
+    margin: 35px 35px 0 0; 
     cursor: pointer;
 }
